@@ -9,7 +9,7 @@
         "project-team": "Project team",
         "jia-hao": "Jia Hao",
         "andy-toh": "Andy Toh",
-        "johnny-doe": "Johnny Doe",
+        "tsai-ian-fourre": "Tsai Ian Fourre",
         "wong-xing-hui-bertrand": "Wong Xing Hui Bertrand",
         "ruiyang-zhao": "Ruiyang Zhao"
       },
@@ -136,6 +136,14 @@
     {
       "src": "team/andytoh1.md",
       "title": "Andy Toh's Project Portfolio Page",
+      "headings": {
+        "project-realtortrackerplusmax": "Project: RealtorTrackerPlusMax"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/iantsaii.md",
+      "title": "Ian Tsai's Project Portfolio Page",
       "headings": {
         "project-realtortrackerplusmax": "Project: RealtorTrackerPlusMax"
       },
