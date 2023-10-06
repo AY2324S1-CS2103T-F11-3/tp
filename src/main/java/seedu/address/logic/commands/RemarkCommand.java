@@ -11,6 +11,7 @@ import java.util.List;
 
 import static java.util.Objects.requireNonNull;
 import static seedu.address.commons.util.CollectionUtil.requireAllNonNull;
+import static seedu.address.model.Model.PREDICATE_SHOW_ALL_PERSONS;
 
 public class RemarkCommand extends Command {
 
@@ -25,12 +26,8 @@ public class RemarkCommand extends Command {
             + "Example: " + COMMAND_WORD + " 1 "
             + "r/ Likes to swim.";
 
-    public static final String MESSAGE_NOT_IMPLEMENTED_YET =
-            "Remark command not implemented yet";
     public static final String MESSAGE_SUCCESS = "Added the remark: %1$s";
     public static final String MESSAGE_DUPLICATE_PERSON = "Remark already present";
-    public static final String MESSAGE_ARGUMENTS = "Index: %1$d, Remark: %2$s";
-
     private final Index index;
     private final Remark remark;
 
@@ -55,10 +52,10 @@ public class RemarkCommand extends Command {
         if (remark == toRemark.getRemark()) {
             throw new CommandException(MESSAGE_DUPLICATE_PERSON);
         }
-        model.deletePerson(toRemark);
         Person remarked = new Person(toRemark.getName(), toRemark.getPhone(), toRemark.getEmail(), toRemark.getAddress(),
                 remark, toRemark.getTags());
-        model.addPerson(remarked);
+        model.setPerson(toRemark, remarked);
+        model.updateFilteredPersonList(PREDICATE_SHOW_ALL_PERSONS);
         return new CommandResult(String.format(MESSAGE_SUCCESS, Messages.format(remarked)));
     }
 
