@@ -215,7 +215,7 @@ with(this){return _c('h3',{attrs:{"id":"use-cases"}},[_v("Use cases"),_c('a',{st
 with(this){return _c('p',[_v("(For all use cases below, the "),_c('strong',[_v("System")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("RTPM (RealtorTrackerPlusMax)")]),_v(" and the "),_c('strong',[_v("Actor")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("user")]),_v(",\nunless specified otherwise)")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC1 - Add homeowner and house")]),_c('br'),_v("\nSystem: RTPM"),_c('br'),_v("\nActor: User")])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC1 - Add homeowner and house")]),_v("\nSystem: RTPM\nActor: User")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -227,7 +227,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User enters command to add homeo
 with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. User enters invalid parameters.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. System indicates to user that the parameters are invalid.\nUse case restarts from step 1.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. Failure to update savefile.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System indicates failure to update.\nUse case restarts from step 1.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC2 - Add homebuyer and preferences")]),_c('br'),_v("\nSystem: RTPM"),_c('br'),_v("\nActor: User"),_c('br'),_v(" "),_c('strong',[_v("MSS")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC2 - Add homebuyer and preferences")]),_v("\nSystem: RTPM\nActor: User\n"),_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
 with(this){return _c('ol',[_c('li',[_v("User enters command to add homebuyer and preferences.")]),_v(" "),_c('li',[_v("System adds the entry to the list.")]),_v(" "),_c('li',[_v("System saves file.\nUse case ends.")])])}
@@ -236,7 +236,7 @@ with(this){return _c('ol',[_c('li',[_v("User enters command to add homebuyer and
 with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. User enters invalid parameters.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. System indicates to user that the parameters are invalid.\nUse case restarts from step 1.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. Failure to update savefile.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System indicates failure to update.\nUse case restarts from step 1.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC3 - View buyers")]),_c('br'),_v("\nSystem: RTPM"),_c('br'),_v("\nActor: User"),_c('br'),_v(" "),_c('strong',[_v("MSS")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC3 - View buyers")]),_v("\nSystem: RTPM\nActor: User\n"),_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
 with(this){return _c('ol',[_c('li',[_v("User enters the list-b command.")]),_v(" "),_c('li',[_v("System displays list of buyers.")])])}
@@ -332,6 +332,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Thu, 26 Oct 2023, 16:36:37 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Thu, 26 Oct 2023, 23:20:50 GMT+8]")])])])}
 }];
   
