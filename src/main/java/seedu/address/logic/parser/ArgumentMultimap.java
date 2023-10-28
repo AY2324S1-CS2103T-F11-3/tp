@@ -38,9 +38,11 @@ public class ArgumentMultimap {
     /**
      * Returns the last value of {@code prefix}.
      */
-    public Optional<String> getValue(Prefix prefix) {
+
+    public String getOrDefault(Prefix prefix, String defaultString) {
         List<String> values = getAllValues(prefix);
-        return values.isEmpty() ? Optional.empty() : Optional.of(values.get(values.size() - 1));
+        values.removeIf(s -> s == null || s.trim().isEmpty());
+        return values.isEmpty() ? defaultString : values.get(values.size() - 1);
     }
 
     /**
@@ -59,7 +61,7 @@ public class ArgumentMultimap {
      * Returns the preamble (text before the first valid prefix). Trims any leading/trailing spaces.
      */
     public String getPreamble() {
-        return getValue(new Prefix("")).orElse("");
+        return getOrDefault(new Prefix(""), "");
     }
 
     /**

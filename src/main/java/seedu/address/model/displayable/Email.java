@@ -31,6 +31,8 @@ public class Email {
     private static final String DOMAIN_REGEX = "(" + DOMAIN_PART_REGEX + "\\.)*" + DOMAIN_LAST_PART_REGEX;
     public static final String VALIDATION_REGEX = LOCAL_PART_REGEX + "@" + DOMAIN_REGEX;
 
+    public static final String EMAIL_DEFAULT_STRING = "email@placeholder.com";
+
     public final String value;
 
     /**

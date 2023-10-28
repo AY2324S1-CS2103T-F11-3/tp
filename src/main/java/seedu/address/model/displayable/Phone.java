@@ -15,6 +15,9 @@ public class Phone {
     public static final String VALIDATION_REGEX = "\\d{3,}";
     public final String value;
 
+    public static final String PHONE_DEFAULT_STRING = "111";
+    //todo change this when the other PR is merged.
+
     /**
      * Constructs a {@code Phone}.
      *

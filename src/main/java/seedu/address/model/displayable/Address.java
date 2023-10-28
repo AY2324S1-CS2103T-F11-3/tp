@@ -17,6 +17,8 @@ public class Address {
      */
     public static final String VALIDATION_REGEX = "[^\\s].*";
 
+    public static final String ADDRESS_DEFAULT_STRING = "Kent Ridge";
+
     public final String value;
 
     /**

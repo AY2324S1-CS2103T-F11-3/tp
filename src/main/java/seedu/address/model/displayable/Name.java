@@ -18,6 +18,8 @@ public class Name {
      */
     public static final String VALIDATION_REGEX = "[\\p{Alnum}][\\p{Alnum} ]*";
 
+    public static final String NAME_DEFAULT_STRING = "Aiken Dueet";
+
     public final String fullName;
 
     /**
