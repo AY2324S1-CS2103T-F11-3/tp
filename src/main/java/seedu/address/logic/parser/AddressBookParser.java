@@ -15,8 +15,6 @@ import seedu.address.logic.commands.ClearCommand;
 import seedu.address.logic.commands.Command;
 import seedu.address.logic.commands.DeleteBuyerCommand;
 import seedu.address.logic.commands.DeleteSellerCommand;
-import seedu.address.logic.commands.EditBuyerCommand;
-import seedu.address.logic.commands.EditSellerCommand;
 import seedu.address.logic.commands.ExitCommand;
 import seedu.address.logic.commands.FilterCommand;
 import seedu.address.logic.commands.HelpCommand;
@@ -96,12 +94,6 @@ public class AddressBookParser {
 
         case SetSellerPriorityCommand.COMMAND_WORD:
             return new SetSellerPriorityCommandParser().parse(arguments, commandWarnings);
-
-        case EditBuyerCommand.COMMAND_WORD:
-            return new EditBuyerCommandParser().parse(arguments);
-
-        case EditSellerCommand.COMMAND_WORD:
-            return new EditSellerCommandParser().parse(arguments);
 
         default:
             logger.finer("This user input caused a ParseException: " + userInput);
