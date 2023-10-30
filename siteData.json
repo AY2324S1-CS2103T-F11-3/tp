@@ -40,7 +40,7 @@
       "src": "DeveloperGuide.md",
       "title": "Developer Guide",
       "headings": {
-        "rtpm-3-developer-guide": "RTPM-3 Developer Guide",
+        "rtpm-developer-guide": "RTPM Developer Guide",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -56,6 +56,9 @@
         "proposed-edit-feature": "[Proposed] Edit feature",
         "in-progress-priority-feature": "[In progress] Priority feature",
         "proposed-sort-feature": "[Proposed] Sort feature",
+        "relaxed-parameter-matching": "Relaxed parameter matching",
+        "background": "Background",
+        "implementation-3": "Implementation",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",
