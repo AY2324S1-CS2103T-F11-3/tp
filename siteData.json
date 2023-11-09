@@ -69,7 +69,8 @@
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data"
+        "saving-data": "Saving data",
+        "appendix-planned-enhancements": "Appendix: Planned Enhancements"
       },
       "headingKeywords": {}
     },
@@ -123,8 +124,8 @@
         "display-a-seller-from-seller-list-slist": "Display a seller from seller list: slist",
         "editing-a-buyer-bedit": "Editing a buyer: bedit",
         "editing-a-seller-sedit": "Editing a seller: sedit",
-        "setting-a-buyer-s-priority": "Setting a buyer's priority:",
-        "setting-a-seller-s-priority": "Setting a seller's priority:",
+        "setting-a-buyer-s-priority-bprio": "Setting a buyer's priority: bprio",
+        "setting-a-seller-s-priority-sprio": "Setting a seller's priority: sprio",
         "filtering-buyers-and-sellers-filter": "Filtering buyers and sellers: filter",
         "deleting-a-buyer-bdelete": "Deleting a buyer: bdelete",
         "deleting-a-seller-sdelete": "Deleting a seller: sdelete",
