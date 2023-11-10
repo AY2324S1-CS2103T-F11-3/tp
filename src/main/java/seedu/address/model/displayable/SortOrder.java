@@ -36,7 +36,7 @@ public class SortOrder {
     public static OrderType getOrderType(String sortOrder) {
         requireNonNull(sortOrder);
         AppUtil.validateArgument(isValidSortOrder(sortOrder), MESSAGE_CONSTRAINTS);
-        switch (sortOrder) {
+        switch (sortOrder.toLowerCase()) {
         case ("a"):
             return OrderType.ASCENDING;
         case ("d"):
