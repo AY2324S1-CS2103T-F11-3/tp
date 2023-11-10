@@ -85,4 +85,15 @@ public class ArgumentMultimap {
             throw new ParseException(Messages.getErrorMessageForDuplicatePrefixes(duplicatedPrefixes));
         }
     }
+
+    /**
+     * Verifies that only one prefix is specified.
+     *
+     * @throws ParseException If more than one prefix is specified.
+     */
+    public void verifySinglePrefix() throws ParseException {
+        if (argMultimap.size() > 2) {
+            throw new ParseException(Messages.MESSAGE_MULTIPLE_PREFIXES);
+        }
+    }
 }
