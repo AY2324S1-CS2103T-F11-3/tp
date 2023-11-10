@@ -24,6 +24,10 @@ public class SortBuyerCommandParser implements Parser<SortBuyerCommand> {
      * @throws ParseException if the user input does not conform the expected format
      */
     public SortBuyerCommand parse(String args, CommandWarnings commandWarnings) throws ParseException {
+        if (args.trim().split("\\s+").length > 1) {
+            throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, SortBuyerCommand.MESSAGE_USAGE));
+        }
+
         ArgumentMultimap argMultimap =
                 ArgumentTokenizer.tokenize(args, PREFIX_NAME, PREFIX_ADDRESS, PREFIX_HOUSE_INFO, PREFIX_PRIORITY);
 
