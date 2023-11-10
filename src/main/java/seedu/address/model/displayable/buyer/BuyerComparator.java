@@ -29,7 +29,7 @@ public class BuyerComparator implements Comparator<Buyer> {
             o2.getPriority().value.compareTo(o1.getPriority().value));
     private static final BuyerComparator DESCENDING_PRIORITY_COMPARATOR = new BuyerComparator((o1, o2) ->
             o1.getPriority().value.compareTo(o2.getPriority().value));
-    private static final BuyerComparator DEFAULT_COMPARATOR = new BuyerComparator(null);
+    private static final BuyerComparator DEFAULT_COMPARATOR = null;
 
     public static final String MESSAGE_INVALID_SORT_ORDER =
             "Buyer comparator only works with ascending and descending sort orders!";
