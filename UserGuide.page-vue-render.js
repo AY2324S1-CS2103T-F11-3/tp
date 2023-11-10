@@ -200,7 +200,7 @@ with(this){return _c('p',[_c('strong',[_v("Note: "),_c('code',{pre:true,attrs:{"
 with(this){return _c('blockquote',[_c('p',[_v("The buyer's priority level has been set:"),_c('br'),_v("\nJane Doe; Phone: 91234567; Email: "),_c('a',{attrs:{"href":"mailto:something@else.com"}},[_v("something@else.com")]),_v("; Address: 1 College Ave East; House Info: Central Area 5 Room Condominium; Priority: high; Tags:")])])}
 },function anonymous(
 ) {
-with(this){return _c('blockquote',[_c('p',[_v("Invalid command format!"),_c('br'),_v("\nbprio: Sets a priority level for the buyer, identified by index in the displayed buyer list. INDEX must be a positive integer, while PRIORITY can be either 'high', 'medium', or 'low'."),_c('br'),_v("\nParameters: INDEX PRIORITY")])])}
+with(this){return _c('blockquote',[_c('p',[_v("Invalid command format!"),_c('br'),_v("\nbprio: Sets a priority level for the buyer, identified by index in the displayed buyer list. INDEX must be a positive integer, while PRIORITY can be either 'high', 'medium', 'low', or 'nil'."),_c('br'),_v("\nParameters: INDEX PRIORITY")])])}
 },function anonymous(
 ) {
 with(this){return _c('blockquote',[_c('p',[_v("The buyer index provided is higher than the last number in the list!")])])}
@@ -227,7 +227,7 @@ with(this){return _c('p',[_c('strong',[_v("Note: "),_c('code',{pre:true,attrs:{"
 with(this){return _c('blockquote',[_c('p',[_v("The seller's priority level has been set:"),_c('br'),_v("\nRyan; Phone: 91234567; Email: "),_c('a',{attrs:{"href":"mailto:ryan@gmail.com"}},[_v("ryan@gmail.com")]),_v("; Address: Another Place; Selling Address: 47D Lor Sarhad, Singapore 119164; House Info: 4 Room Flat in Sarhad Ville; Priority: high; Tags:")])])}
 },function anonymous(
 ) {
-with(this){return _c('blockquote',[_c('p',[_v("Invalid command format!"),_c('br'),_v("\nsprio: Sets a priority level for the seller, identified by index in the displayed seller list. INDEX must be a positive integer, while PRIORITY can be either 'high', 'medium', or 'low'."),_c('br'),_v("\nParameters: INDEX PRIORITY")])])}
+with(this){return _c('blockquote',[_c('p',[_v("Invalid command format!"),_c('br'),_v("\nsprio: Sets a priority level for the seller, identified by index in the displayed seller list. INDEX must be a positive integer, while PRIORITY can be either 'high', 'medium', 'low', or 'nil'."),_c('br'),_v("\nParameters: INDEX PRIORITY")])])}
 },function anonymous(
 ) {
 with(this){return _c('blockquote',[_c('p',[_v("The seller index provided is higher than the last number in the list!")])])}
@@ -440,6 +440,6 @@ with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('spa
 with(this){return _c('div',{staticStyle:{"text-align":"right"}},[_c('p',[_c('a',{attrs:{"href":"#rtpm-user-guide"}},[_v("Back to top")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Fri, 10 Nov 2023, 14:09:56 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Fri, 10 Nov 2023, 14:24:52 GMT+8]")])])])}
 }];
   
