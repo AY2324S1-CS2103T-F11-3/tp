@@ -38,7 +38,7 @@ public class SortSellerCommandParser implements Parser<SortSellerCommand> {
         argMultimap.verifyNoDuplicatePrefixesFor(PREFIX_NAME, PREFIX_ADDRESS, PREFIX_HOUSE_INFO, PREFIX_PRIORITY);
 
         if (argMultimap.getValue(PREFIX_NAME).isPresent()) {
-            switch (argMultimap.getValue(PREFIX_NAME).get()) {
+            switch (argMultimap.getValue(PREFIX_NAME).get().toLowerCase()) {
 
             case ("a"):
                 Comparator<Seller> ascendingNameComparator = (o1, o2) ->
@@ -55,7 +55,7 @@ public class SortSellerCommandParser implements Parser<SortSellerCommand> {
                         String.format(MESSAGE_INVALID_COMMAND_FORMAT, SortSellerCommand.MESSAGE_USAGE));
             }
         } else if (argMultimap.getValue(PREFIX_ADDRESS).isPresent()) {
-            switch (argMultimap.getValue(PREFIX_ADDRESS).get()) {
+            switch (argMultimap.getValue(PREFIX_ADDRESS).get().toLowerCase()) {
 
             case ("a"):
                 Comparator<Seller> ascendingAddressComparator = (o1, o2) ->
@@ -72,7 +72,7 @@ public class SortSellerCommandParser implements Parser<SortSellerCommand> {
                         String.format(MESSAGE_INVALID_COMMAND_FORMAT, SortSellerCommand.MESSAGE_USAGE));
             }
         } else if (argMultimap.getValue(PREFIX_HOUSE_INFO).isPresent()) {
-            switch (argMultimap.getValue(PREFIX_HOUSE_INFO).get()) {
+            switch (argMultimap.getValue(PREFIX_HOUSE_INFO).get().toLowerCase()) {
 
             case ("a"):
                 Comparator<Seller> ascendingHouseInfoComparator = (o1, o2) ->
@@ -89,7 +89,7 @@ public class SortSellerCommandParser implements Parser<SortSellerCommand> {
                         String.format(MESSAGE_INVALID_COMMAND_FORMAT, SortSellerCommand.MESSAGE_USAGE));
             }
         } else if (argMultimap.getValue(PREFIX_PRIORITY).isPresent()) {
-            switch (argMultimap.getValue(PREFIX_PRIORITY).get()) {
+            switch (argMultimap.getValue(PREFIX_PRIORITY).get().toLowerCase()) {
 
             case ("a"):
                 Comparator<Seller> ascendingPriorityComparator = (o1, o2) ->
