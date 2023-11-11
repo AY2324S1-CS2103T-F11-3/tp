@@ -59,7 +59,7 @@ with(this){return _c('p',[_v("Example: "),_c('code',{pre:true,attrs:{"class":"hl
 with(this){return _c('blockquote',[_c('p',[_v("Got it. I've added a seller contact:"),_c('br'),_v("\nRyan; Phone: 91234567; Email: "),_c('a',{attrs:{"href":"mailto:ryan@gmail.com"}},[_v("ryan@gmail.com")]),_v("; Address: My Secret Home; Selling Address: 47D Lor Sarhad, Singapore 119164; House Info: 4 Room Flat in Sarhad Ville; Priority: high; Tags:")])])}
 },function anonymous(
 ) {
-with(this){return _c('blockquote',[_c('p',[_v("Invalid command format!"),_c('br'),_v("\nseller: Adds a seller to the address book. Parameters: n/NAME p/PHONE e/EMAIL ah/ADDRESS as/SELLING_ADDRESS i/HOUSE_INFO [t/TAG]..."),_c('br'),_v("\nExample: seller n/Ryan p/91234567 e/ryan@gmail.com ah/My Secret Home as/47D Lor Sarhad, Singapore 119164 i/4 Room Flat in Sarhad Ville prio/medium t/friends t/owesMoney")])])}
+with(this){return _c('blockquote',[_c('p',[_v("Invalid command format!"),_c('br'),_v("\nseller: Adds a seller to the address book. Parameters: n/NAME [p/PHONE] [e/EMAIL] [ah/ADDRESS] [as/SELLING_ADDRESS] [i/HOUSE_INFO] [t/TAG]..."),_c('br'),_v("\nExample: seller n/Ryan p/91234567 e/ryan@gmail.com ah/My Secret Home as/47D Lor Sarhad, Singapore 119164 i/4 Room Flat in Sarhad Ville prio/medium t/friends t/owesMoney")])])}
 },function anonymous(
 ) {
 with(this){return _c('blockquote',[_c('p',[_v("Emails must contain at least one '@'.")])])}
@@ -440,6 +440,6 @@ with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('spa
 with(this){return _c('div',{staticStyle:{"text-align":"right"}},[_c('p',[_c('a',{attrs:{"href":"#rtpm-user-guide"}},[_v("Back to top")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Sat, 11 Nov 2023, 11:22:06 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Sun, 12 Nov 2023, 7:17:40 GMT+8]")])])])}
 }];
   
