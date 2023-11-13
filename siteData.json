@@ -54,7 +54,7 @@
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "proposed-edit-feature": "[Proposed] Edit feature",
-        "completed-priority-feature": "[Completed] Priority feature",
+        "priority-feature": "Priority feature",
         "proposed-sort-feature": "[Proposed] Sort feature",
         "relaxed-parameter-matching": "Relaxed parameter matching",
         "background": "Background",
