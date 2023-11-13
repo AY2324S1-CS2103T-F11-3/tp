@@ -21,7 +21,7 @@ public class SortSellerCommand extends Command {
     public static final String COMMAND_WORD = "ssort";
 
     public static final String MESSAGE_USAGE = COMMAND_WORD + ": Sorts the sellers in RTPM. "
-            + "Parameters: Choose one of "
+            + "Parameters: Choose zero or one of "
             + "[" + PREFIX_NAME + "] "
             + "[" + PREFIX_ADDRESS + "] "
             + "[" + PREFIX_HOUSE_INFO + "] "

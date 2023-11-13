@@ -19,7 +19,7 @@ public class SortBuyerCommand extends Command {
     public static final String COMMAND_WORD = "bsort";
 
     public static final String MESSAGE_USAGE = COMMAND_WORD + ": Sorts the buyers in RTPM. "
-            + "Parameters: Choose one of "
+            + "Parameters: Choose zero or one of "
             + "[" + PREFIX_NAME + "] "
             + "[" + PREFIX_ADDRESS + "] "
             + "[" + PREFIX_HOUSE_INFO + "] "
