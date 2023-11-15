@@ -123,6 +123,7 @@
         "rtpm-user-guide": "RTPM User Guide",
         "contents": "Contents",
         "quick-start": "Quick Start",
+        "configuration": "Configuration",
         "features": "Features",
         "adding-a-buyer-buyer": "Adding a buyer: buyer",
         "adding-a-seller-seller": "Adding a seller : seller",
@@ -144,11 +145,13 @@
         "viewing-help-help": "Viewing help: help",
         "exiting-the-program-exit": "Exiting the program: exit",
         "faq": "FAQ",
+        "q-i-still-have-issues-a-try-contacting-our-developer-team-by-creating-an-issue-on-our-github-and-we-will-see-how-we-can-help": "Q: I still have issues! \nA: Try contacting our developer team by creating an issue on our\nGitHub, and we will see how we can help.",
         "known-issues": "Known issues",
         "command-summary": "Command summary",
         "appendix-a-warnings": "Appendix A: Warnings",
         "appendix-b-fields": "Appendix B: Fields",
-        "appendix-c-similar-names": "Appendix C: Similar names"
+        "appendix-c-similar-names": "Appendix C: Similar names",
+        "appendix-d-definitions": "Appendix D: Definitions"
       },
       "headingKeywords": {}
     },
